@@ -36,6 +36,12 @@ client.on('ready', () => {
     },3500);
   });
 
+client.on('ready', () => {
+    setInterval(function(){
+        client.guilds.get('303657307231879169').roles.find('name', 'krulrobalow').edit({color: 'RANDOM'})
+    },3500);
+  });
+
 client.on('message', async message => {
 
   if(message.author.bot) return;
