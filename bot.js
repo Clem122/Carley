@@ -6,13 +6,12 @@ const Canvas = require('canvas');
 const snekfetch = require('snekfetch');
   let warns = JSON.parse(fs.readFileSync("./warnings.json", "utf8"))
 const serverStats = {
-    guildID: '303657307231879169',
-    totalUsersID: '499164441506480129',
-    memberCountID: '499164461459046410',
-    botCount: '499164691730268170',
-    clock: '500397109506211841',
-    time: '501863189458452480',
-    newUser: '499164704313442314'
+    guildID: '746030108460056718',
+    totalUsersID: '746082964839858247',
+    memberCountID: '746087399007977595',
+    clock: '746087399007977595',
+    time: '746087419371061339',
+    newUser: '746087439856173179'
 }
 
 client.on('ready', () => {
